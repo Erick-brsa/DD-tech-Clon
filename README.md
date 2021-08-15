@@ -1,4 +1,4 @@
-# DD TEXH
+# DD TECH
 
 _Realicé este proyecto con el objetivo de poner en practica todo lo que aprendí en el primer curso que tomé de JavaScript._
 
