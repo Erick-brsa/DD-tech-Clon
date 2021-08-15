@@ -1,2 +1,2 @@
-# DD-tech-Clon
+# DD-tech
 Un proyecto realizado con Bootstrap y JavaScript
