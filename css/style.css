@@ -1,0 +1,153 @@
+:root {
+	--primary-color: #1765be;
+	--primary-color-alt: #2d8af5;
+	--second-color: #1d1d1d;
+	--second-color-alt: #333333;
+}
+
+.dark-bar {
+	background-color: var(--second-color);
+	font-size: 15px;
+}
+
+.menu-top {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: 10px 0;
+}
+
+.menu-top li {
+	list-style-type: none;
+	display: inline-block;
+	font-weight: 300;
+	color: #fff;
+	margin: 0 5px;
+}
+
+.menu-top li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.bg-ddtech {
+	background-color: var(--primary-color);
+}
+
+.bg-ddtech-alt {
+	background-color: var(--primary-color-alt);
+}
+
+/* .navbar {
+    position: fixed;
+    display: block;
+    width: 100%;
+} */
+
+.navbar-brand img {
+	width: 170px;
+}
+
+.nav-link {
+	color: #fff !important;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.help {
+	border-radius: 5px;
+}
+
+.icon-hover svg:hover {
+	fill: var(--primary-color-alt);
+}
+
+.category {
+	background-color: var(--second-color-alt);
+	color: #fff;
+	font-weight: 500;
+}
+
+.btn-option {
+	justify-content: space-between;
+	text-transform: uppercase;
+	align-items: center;
+	display: flex;
+	border: none;
+	transition: all 0.5s;
+}
+
+.btn-option:hover {
+	margin-left: 5px;
+	transition: 0.5s;
+	color: var(--primary-color-alt);
+}
+
+.carousel-item img {
+	height: 350px;
+}
+
+/* Cartas */
+
+.cuerpo-carta {
+	height: 420px;
+}
+
+.img-carta {
+	display: flex;
+	align-items: center;
+	margin: auto 0;
+}
+
+.img-carta img {
+	width: 100%;
+	height: 200;
+	/* height: 100px; */
+}
+
+.texto-carta{
+	height: 200px;
+}
+
+.text-carta {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+	.contenedor-enlaces {
+		/* border-top: 1px solid var(--second-color); */
+		width: 200%;
+	}
+	.nav-link {
+		text-align: center;
+	}
+	.barra-divisora {
+		display: none;
+	}
+	
+
+}
+
+@media (max-width: 1000px) {
+	.iconos {
+		display: none;
+	}
+    .cat-opc {
+        /* display: none; */
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 600px) {
+	.carousel-item img {
+		height: 160px;
+	}
+}
